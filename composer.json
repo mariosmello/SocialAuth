@@ -1,0 +1,19 @@
+{
+  "minimum-stability": "dev",
+  "name": "dindigital/social-auth",
+  "prefer-stable": true,
+  "require": {
+    "google/apiclient": "dev-master"
+  },
+  "autoload": {
+    "psr-0": {
+      "Din\\SocialAuth": "library/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Mario Mello",
+      "email": "mario@dindigital.com"
+    }
+  ]
+}

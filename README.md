@@ -37,6 +37,7 @@ $googleAuth->setClientSecret($secret);
 $googleAuth->setDeveloperKey($devkey);
 $googleAuth->setRedirectUri($redirect_url);
 
+// Define qual permissão o Google fornecerá
 $scope = new Scope;
 $scope->setYouTube();
 $scope->setAnalytcs();
